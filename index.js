@@ -44,7 +44,7 @@ const app = http.createServer((req, res)=> {
 })
 
 //listens for whenever the server starts
-app.listen(port, '127.0.0.1', () => {
+app.listen(port, () => {
     console.log(`Server is running ${port}`)
     
 })
